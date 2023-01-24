@@ -1,6 +1,6 @@
 while true; do
-  echo "Ingresa un valor numérico del día del mes (1 a 30): "
-  read num
+  echo "Ingresa un valor numérico del día del mes (1 a 30): ";
+  read $num;
 
   if [[ $num =~ ^[0-9]+$ ]]; then
     if [ $num -ge 1 ] && [ $num -le 30 ]; then
@@ -14,11 +14,11 @@ while true; do
         6) echo "Sábado";;
         7) echo "Domingo";;
       esac
-      break
+      break;
     else
-      echo "El valor ingresado debe estar entre 1 y 30"
+      echo "El valor ingresado debe estar entre 1 y 30";
     fi
   else
-    echo "El valor ingresado debe ser un número entero"
+    echo "El valor ingresado debe ser un número entero";
   fi
 done
