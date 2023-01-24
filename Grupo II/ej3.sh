@@ -3,7 +3,7 @@ $count=0;
 
 while true; do
   echo "Introduce un valor: ";
-  read value;
+  read $value;
   if [ $value -eq 0 ]; then
     break
   fi
