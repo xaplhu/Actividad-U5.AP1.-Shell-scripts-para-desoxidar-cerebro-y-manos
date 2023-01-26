@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -z "$1" ]; then
   echo "Error: No se ha especificado la ruta del fichero.";
   exit 1;

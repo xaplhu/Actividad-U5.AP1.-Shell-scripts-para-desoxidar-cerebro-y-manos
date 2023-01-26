@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ $# -eq $0 ]; then
 echo "Modo de uso: $0 valor_entero_mayor_que_0";
 exit $1;

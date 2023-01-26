@@ -1,3 +1,4 @@
+#!/bin/bash
 while true; do
   echo "Ingresa un valor numérico del día del mes (1 a 30): ";
   read $num;

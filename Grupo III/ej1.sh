@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Ingrese el primer número:";
 read $num1;
 echo "Ingrese el segundo número:";

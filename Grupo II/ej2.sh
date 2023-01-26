@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ $# -eq 0 ] || [ $1 -le 0 ]; then
   echo "Uso: $0 valor"
   echo "El script debe recibir como argumento un valor mayor que 0.";

@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ $# -ne 3 ]; then
   echo "Por favor ingrese 3 argumentos: el primer valor, el operador (+, -, *, /) y el segundo valor.";
   exit 1;

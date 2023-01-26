@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Introduce la cantidad de números aleatorios que deseas generar:";
 read $cantidad;
 echo "Introduce el valor mínimo:";

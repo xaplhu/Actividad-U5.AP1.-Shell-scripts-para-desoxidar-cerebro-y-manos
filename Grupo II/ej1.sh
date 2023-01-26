@@ -1,7 +1,8 @@
+#!/bin/bash
 echo "Introduce la primera cadena: ";
-read cadena1;
+read $cadena1;
 echo "Introduce la segunda cadena: ";
-read cadena2;
+read $cadena2;
 if [ "$cadena1" == "$cadena2" ]; then
   echo "Las cadenas son iguales.";
 else

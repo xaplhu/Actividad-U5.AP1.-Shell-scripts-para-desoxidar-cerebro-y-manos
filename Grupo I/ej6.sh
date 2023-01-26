@@ -1,3 +1,4 @@
+#!/bin/bash
 while true; do
   echo "Menú de opciones:";
   echo "1. Buscar por título";

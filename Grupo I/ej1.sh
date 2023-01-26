@@ -1,4 +1,4 @@
-
+#!/bin/bash
 echo "Ingresa tu nombre: ";
 read $nombre;
 echo "Ingresa tus dos apellidos: ";

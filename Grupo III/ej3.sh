@@ -1,3 +1,4 @@
+#!/bin/bash
 $words=()
 while true; do
   echo "Ingrese una palabra (escriba 'fin' para terminar):";

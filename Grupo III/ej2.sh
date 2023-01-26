@@ -1,3 +1,4 @@
+#!/bin/bash
 while true; do
   echo "Ingrese su nota (de 0 a 10):";
   read $nota;

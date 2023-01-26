@@ -1,3 +1,4 @@
+#!/bin/bash
 while true; do
   echo "Ingresa un valor mayor que 0: ";
   read $num;

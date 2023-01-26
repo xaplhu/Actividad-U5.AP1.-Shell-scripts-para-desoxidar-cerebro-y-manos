@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ $# -ne 1 ]; then
   echo "Por favor ingrese un argumento: la ruta del fichero.";
   exit 1;

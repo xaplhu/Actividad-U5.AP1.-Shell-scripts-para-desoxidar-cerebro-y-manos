@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Introduce la cantidad de litros de agua consumidos:";
 read $litros;
 

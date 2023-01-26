@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Ingresa el título del libro: ";
 read $titulo;
 
